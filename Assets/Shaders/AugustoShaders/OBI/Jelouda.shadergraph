@@ -2646,7 +2646,7 @@
     "m_ShaderOutputName": "False",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.0,
+        "x": 0.800000011920929,
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
@@ -2960,7 +2960,7 @@
     "m_ShaderOutputName": "True",
     "m_StageCapability": 3,
     "m_Value": {
-        "x": 1.5,
+        "x": 1.0,
         "y": 1.0,
         "z": 1.0,
         "w": 1.0
@@ -3406,7 +3406,7 @@
     "m_Hidden": false,
     "m_ShaderOutputName": "B",
     "m_StageCapability": 3,
-    "m_Value": 0.0,
+    "m_Value": 0.8999999761581421,
     "m_DefaultValue": 0.0,
     "m_Labels": []
 }
