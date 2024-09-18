@@ -50,7 +50,7 @@ Material:
     - _QueueOffset: 0
     - _VelocidadHolograma: 0.1
     m_Colors:
-    - _BaseColor: {r: 0, g: 0.5621376, b: 1, a: 0}
+    - _BaseColor: {r: 0, g: 0.56078434, b: 1, a: 0}
     - _FresnelColor: {r: 1.124289, g: 1.9605811, b: 4.181566, a: 0}
     - _HologramaTiling: {r: 1, g: 3, b: 0, a: 0}
   m_BuildTextureStacks: []
