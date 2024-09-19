@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Nieve
+  m_Name: NieveBlasters
   m_Shader: {fileID: -6465566751694194690, guid: 77a5f866fe789cc4bbe21ca5a3bc356a,
     type: 3}
   m_Parent: {fileID: 0}
@@ -38,15 +38,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 575ee243fa90b034f87011941f5bb89f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Metallic_R_Smoothness_A:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: d9c3a3a61f0139943a2c55adf03ebc28, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: bed6e587b3447194f9a29c52eca1e946, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Snow_Albedo:
+        m_Texture: {fileID: 2800000, guid: 7c73d60bdb5cd3e489e3a7caf137e280, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -63,7 +67,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Normal_Strenght: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Snow_Additive_Area: -0.24
+    - _Snow_Coverage_Max: 0.57
+    - _Snow_Coverage_Min: 0.12
     m_Colors: []
   m_BuildTextureStacks: []
