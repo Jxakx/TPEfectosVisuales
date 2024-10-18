@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
-public class ColdEffectPostProcess : ScriptableRendererFeature
+public class CustomForwardRenderer : ScriptableRendererFeature
 {
     class CustomRenderPass : ScriptableRenderPass
     {
@@ -27,7 +25,7 @@ public class ColdEffectPostProcess : ScriptableRendererFeature
 
             CommandBuffer cmd = CommandBufferPool.Get("ColdEffectPostProcess");
 
-            // Apply the post-processing material to the current render target
+            // Aplica el material al render target actual
             Blit(cmd, currentTarget, currentTarget, postProcessMaterial);
 
             context.ExecuteCommandBuffer(cmd);
@@ -42,7 +40,7 @@ public class ColdEffectPostProcess : ScriptableRendererFeature
     {
         m_ScriptablePass = new CustomRenderPass();
 
-        // Configura el paso de renderización para que se ejecute después de todo el renderizado normal.
+        // Ejecuta el renderizado después de que se hayan renderizado las transparencias
         m_ScriptablePass.renderPassEvent = RenderPassEvent.AfterRenderingTransparents;
     }
 
@@ -56,3 +54,5 @@ public class ColdEffectPostProcess : ScriptableRendererFeature
         }
     }
 }
+
+
