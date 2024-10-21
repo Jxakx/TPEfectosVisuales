@@ -21,12 +21,12 @@ public class PP_Controls : MonoBehaviour
     {
         if (_IsOn)
         {
-            _PPFreezeMaterial.SetFloat("_FreezeAmount", 0f);
+            _PPFreezeMaterial.SetFloat("_PPIntensity", 0f);
             _IsOn = false;
         }
         else
         {
-            _PPFreezeMaterial.SetFloat("_FreezeAmount", 1);
+            _PPFreezeMaterial.SetFloat("_PPIntensity", 1);
             _IsOn = true;
         }
     }
