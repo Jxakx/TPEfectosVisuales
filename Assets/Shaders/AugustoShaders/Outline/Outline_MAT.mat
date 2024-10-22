@@ -60,6 +60,7 @@ Material:
     - _DstBlend: 10
     - _OutlineThickness: 0.2
     - _Outline_Thickness: 0.02
+    - _PPOutline: 0.619
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
