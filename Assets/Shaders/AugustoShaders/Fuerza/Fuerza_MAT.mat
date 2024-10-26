@@ -7,14 +7,14 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ColdEffect
-  m_Shader: {fileID: -6465566751694194690, guid: c54945cd84de0fb43b722f95eab1e57f,
+  m_Name: Fuerza_MAT
+  m_Shader: {fileID: -6465566751694194690, guid: 71942eaff07e6504b878dca64435d539,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -24,12 +24,12 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_483dece95a5248a8b8912649e97c3966_Texture_1_Texture2D:
+    - _SampleTexture2D_9b5a86413e6b46249c74ceba7d3102b3_Texture_1_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_ff4a026e38cf478ca29d5f5a1449b718_Texture_1_Texture2D:
-        m_Texture: {fileID: 2800000, guid: ec17a15147b527e41916a3a8344ff0ad, type: 3}
+    - _SampleTexture2D_bf17b02b5de04739922063f178e388e8_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,10 +46,31 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FreezeAmount: 1
-    - _PPIntensity: 0
+    - _AlphaScale: -45.62
+    - _ControlFuerza: 0
+    - _EffectForce: 0.3
+    - _Float: 0
+    - _FresnelPower: 1
+    - _NoiseScale: 0.5
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SnowOpacity: 0.3
-    m_Colors: []
+    - _TexturaNoise: -360.75
+    - _TimeScale: 10
+    - _TimeSpeed: 2
+    m_Colors:
+    - _ColorFresnel: {r: 0, g: 0.6411624, b: 1, a: 0}
+    - _ColorNoise: {r: 0.63529414, g: 0.8744984, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!114 &7936773664905384332
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
