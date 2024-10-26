@@ -47,7 +47,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _FreezeAmount: 1
-    - _PPIntensity: 0
+    - _PPIntensity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SnowOpacity: 0.3
