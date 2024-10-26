@@ -59,7 +59,7 @@ Material:
     - _TimeSpeed: 2
     m_Colors:
     - _ColorFresnel: {r: 0, g: 0.6411624, b: 1, a: 0}
-    - _ColorNoise: {r: 0.63529414, g: 0.8744984, b: 1, a: 1}
+    - _ColorNoise: {r: 0, g: 0.3921566, b: 1, a: 0.5254902}
   m_BuildTextureStacks: []
 --- !u!114 &7936773664905384332
 MonoBehaviour:
