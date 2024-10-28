@@ -58,7 +58,7 @@ Material:
     - _DrawOrder: 0
     - _DstBlend: 0
     - _DstBlendAlpha: 0
-    - _Fade: 0.264
+    - _Fade: 0.293
     - _Float: 1.41
     - _OpacidadVoronoi: 2.21
     - _Outline_Thickness: -9.63
