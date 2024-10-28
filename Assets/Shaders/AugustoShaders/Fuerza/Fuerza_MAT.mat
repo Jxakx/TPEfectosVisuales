@@ -48,13 +48,14 @@ Material:
     m_Floats:
     - _AlphaScale: -45.62
     - _ControlFuerza: 0
+    - _Distorsi_nEffect: 1
     - _EffectForce: 0.5
     - _EffectOutline: 14
     - _Float: 0
     - _FresnelPower: 2
     - _NoiseScale: 2.5
     - _Outline: 0.031
-    - _OutlineFuerza: 0.02
+    - _OutlineFuerza: 0.05
     - _QueueControl: 0
     - _QueueOffset: 0
     - _TexturaNoise: -360.75
