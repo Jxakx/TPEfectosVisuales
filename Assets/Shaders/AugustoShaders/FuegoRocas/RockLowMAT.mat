@@ -133,7 +133,7 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 11.181762, g: 0.7352402, b: 0, a: 1}
+    - _Color: {r: 2.1185472, g: 0.13930194, b: 0, a: 1}
     - _ColorFresnel: {r: 11585.237, g: 1395.6666, b: 0, a: 0}
     - _DissolveSpeed: {r: -0.1, g: -0.5, b: 0, a: 0}
     - _Distorci_nSpeed: {r: 2.23, g: 1.73, b: 0, a: 0}
