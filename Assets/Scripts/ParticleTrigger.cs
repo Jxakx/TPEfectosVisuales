@@ -11,9 +11,13 @@ public class ParticleTrigger : MonoBehaviour
     public ParticleSystem psExplosionHumo;
     public ParticleSystem psExplosionPolvo;
     public ParticleSystem psATShoot;
+
+
     // Tiempo de espera en segundos antes de activar el sistema de partículas
     public float delayTime = 5.0f;
     public float delayTimeATShoot = 5.0f;
+
+    public float delayTimeAT = 5.0f;
     // Inicia la corrutina cuando empieza el juego o el objeto es activado
     void Start()
     {
@@ -21,6 +25,8 @@ public class ParticleTrigger : MonoBehaviour
         StartCoroutine(ActivateParticlesPeriodically());
         StartCoroutine(ActivateParticlesATShoot());
     }
+
+    
 
     // Corrutina que espera el tiempo especificado antes de activar el sistema de partículas
     IEnumerator ActivateParticlesPeriodically()
