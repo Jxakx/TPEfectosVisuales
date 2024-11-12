@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008952402, g: 0.013101039, b: 0.020449812, a: 1}
+  m_IndirectSpecularColor: {r: 0.008958812, g: 0.013101446, b: 0.02045097, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5846,7 +5846,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297177154}
   serializedVersion: 8
-  lengthInSec: 50
+  lengthInSec: 45
   simulationSpeed: 20
   stopAction: 0
   cullingMode: 0
@@ -16576,7 +16576,6 @@ MonoBehaviour:
   sparks: {fileID: 1507145462}
   delayTime: 5
   delayTimeATShoot: 4.7
-  delayTimeAT: 5
 --- !u!4 &360026644
 Transform:
   m_ObjectHideFlags: 0
@@ -22559,7 +22558,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 57e6fd78de3665b40a415365ff21f9a3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -53003,7 +53002,7 @@ Transform:
   m_GameObject: {fileID: 1510476653}
   serializedVersion: 2
   m_LocalRotation: {x: -0.2972879, y: -0.019801527, z: 0.00067010726, w: -0.9545823}
-  m_LocalPosition: {x: 98.090614, y: 26.413876, z: 55.522842}
+  m_LocalPosition: {x: 97.36, y: 26.41, z: 55.55}
   m_LocalScale: {x: 0.008546333, y: 0.008546333, z: 0.008546333}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53067,6 +53066,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   rotationSpeed: 100
+  verticalSpeed: 5
+  mouseSensitivity: 100
 --- !u!114 &1510476659
 MonoBehaviour:
   m_ObjectHideFlags: 0
