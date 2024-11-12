@@ -26,18 +26,19 @@ public class ParticleTrigger : MonoBehaviour
     public float delayTimeAT = 5.0f;
     // Inicia la corrutina cuando empieza el juego o el objeto es activado
     void Start()
-    {
+    {    
         // Llamar a la corrutina para activar el sistema de partículas después de un retraso
         StartCoroutine(ActivateParticlesPeriodically());
-        StartCoroutine(ActivateParticlesATShoot());
+        StartCoroutine(ActivateParticlesATShoot());        
+    }
 
+    public void Update()
+    {
         if (Input.GetKeyDown(KeyCode.F))
         {
             psShoot();
         }
     }
-
-    
 
     // Corrutina que espera el tiempo especificado antes de activar el sistema de partículas
     IEnumerator ActivateParticlesPeriodically()

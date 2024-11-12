@@ -16569,6 +16569,11 @@ MonoBehaviour:
   psExplosionHumo: {fileID: 1789468535}
   psExplosionPolvo: {fileID: 1867597594}
   psATShoot: {fileID: 297177156}
+  shot: {fileID: 895761017}
+  muzzleFlash: {fileID: 1986621667}
+  flash: {fileID: 407079404}
+  smoke: {fileID: 1496758978}
+  sparks: {fileID: 1507145462}
   delayTime: 5
   delayTimeATShoot: 4.7
   delayTimeAT: 5
@@ -24368,7 +24373,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 1
   autoRandomSeed: 0
   startDelay:
