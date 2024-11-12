@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ParticleTrigger : MonoBehaviour
@@ -12,6 +13,11 @@ public class ParticleTrigger : MonoBehaviour
     public ParticleSystem psExplosionPolvo;
     public ParticleSystem psATShoot;
 
+    public ParticleSystem shot;
+    public ParticleSystem muzzleFlash;
+    public ParticleSystem flash;
+    public ParticleSystem smoke;
+    public ParticleSystem sparks;
 
     // Tiempo de espera en segundos antes de activar el sistema de partículas
     public float delayTime = 5.0f;
@@ -20,13 +26,19 @@ public class ParticleTrigger : MonoBehaviour
     public float delayTimeAT = 5.0f;
     // Inicia la corrutina cuando empieza el juego o el objeto es activado
     void Start()
-    {
+    {    
         // Llamar a la corrutina para activar el sistema de partículas después de un retraso
         StartCoroutine(ActivateParticlesPeriodically());
-        StartCoroutine(ActivateParticlesATShoot());
+        StartCoroutine(ActivateParticlesATShoot());        
     }
 
-    
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            psShoot();
+        }
+    }
 
     // Corrutina que espera el tiempo especificado antes de activar el sistema de partículas
     IEnumerator ActivateParticlesPeriodically()
@@ -55,4 +67,14 @@ public class ParticleTrigger : MonoBehaviour
             psATShoot.Play();
         }
     }
+
+    public void psShoot()
+    {
+        shot.Play();
+        muzzleFlash.Play();
+        flash.Play();
+        smoke.Play();
+        sparks.Play();        
+    }
+
 }
